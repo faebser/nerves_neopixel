@@ -12,17 +12,19 @@ You can read more about this in [my blog post about the project](http://www.greg
 
 ## Installation
 
-  1. Add it to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:nerves_neopixel, "~> 0.1.0"}]
-        end
-
-  2. Ensure it is started before your application:
-
-        def application do
-          [applications: [:nerves_neopixel]]
-        end
+* Add it to your list of dependencies in `mix.exs`:
+```elixir
+def deps do
+  [{:nerves_neopixel, "~> 0.3.0"}]
+end
+```
+* Ensure it is started before your application:
+```elixir
+def application do
+  [applications: [:nerves_neopixel]]
+end
+```
+See https://hex.pm/packages/nerves_neopixel
 
 ## Usage
 
